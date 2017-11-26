@@ -1,0 +1,11 @@
+a=1
+b=1
+list1=[]
+string=[]
+while(len(string)<1000):
+    string=str(a)
+    list1.append(a)
+    c=a+b
+    a=b
+    b=c
+print(len(list1))
