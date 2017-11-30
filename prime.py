@@ -9,5 +9,5 @@ def is_prime(num):
         return False
     else:
         return True
-a=is_prime(23)
-print(a)
+a=input()
+print(is_prime(a))
